@@ -1,0 +1,19 @@
+package Logic_Building;
+
+import java.util.Scanner;
+
+//Factorial program using while loop
+public class Factorial_Program2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter number");
+		int number = sc.nextInt();
+		int factorial = 1;
+		int i = 1;
+		while (i <= number) {
+			factorial = factorial * i;
+			i++;
+		}
+		System.out.println(factorial);
+	}
+}
